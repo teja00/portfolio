@@ -1,28 +1,66 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import Typewriter from 'typewriter-effect';
-import Fade from 'react-reveal';
+// import Fade from 'react-reveal';
+import { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
-  nameStyle: {
-    fontSize: '5em',
+  Container: {
+    borderRadius: '15px',
+    padding: '40px',
+    width: '100%',
+    maxWidth: '1200px',
+    margin: '0 auto',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
   },
-  inlineChild: {
-    display: 'inline-block',
-  },
-  mainContainer: {
-    height: '100%',
+  imageContainer: {
     display: 'flex',
-    flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
+    marginBottom: '20px',
+  },
+  image: {
+    borderRadius: '50%',
+    width: '150px',
+    height: '150px',
+    objectFit: 'cover',
+  },
+  nameStyle: {
+    fontSize: '2em',
+    fontWeight: 'bold',
+    marginBottom: '10px',
+  },
+  roleStyle: {
+    fontSize: '1.5em',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'baseline',
+    marginBottom: '20px',
+  },
+  typewriter: {
+    display: 'inline-block',
+    fontSize: '1.5em',
+  },
+  bio: {
+    fontSize: '1em',
+    maxWidth: '600px',
+    margin: '0 auto',
+    marginBottom: '20px',
+  },
+  contactButton: {
+    backgroundColor: '#007bff',
+    color: '#fff',
+    padding: '10px 20px',
+    borderRadius: '5px',
+    textDecoration: 'none',
+    marginBottom: '20px',
   },
 };
 
 function Home() {
   const [data, setData] = useState(null);
+  const theme = useContext(ThemeContext);
 
   useEffect(() => {
     fetch(endpoints.home, {
@@ -34,11 +72,18 @@ function Home() {
   }, []);
 
   return data ? (
-    <Fade>
-      <div style={styles.mainContainer}>
-        <h1 style={styles.nameStyle}>{data?.name}</h1>
-        <div style={{ flexDirection: 'row' }}>
-          <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
+    <div style={{ ...styles.Container, backgroundColor: theme.containerBackground }}>
+      <div style={styles.imageContainer}>
+        <img
+          src={data?.profilePicture}
+          alt="Profile"
+          style={styles.image}
+        />
+      </div>
+      <h1 style={styles.nameStyle}>{data?.name}</h1>
+      <div style={styles.roleStyle}>
+        <h2 style={{ marginRight: '10px' }}>I&apos;m&nbsp;</h2>
+        <div style={styles.typewriter}>
           <Typewriter
             options={{
               loop: true,
@@ -47,9 +92,10 @@ function Home() {
             }}
           />
         </div>
-        <Social />
       </div>
-    </Fade>
+      <p style={styles.bio}>{data?.bio}</p>
+      <Social />
+    </div>
   ) : <FallbackSpinner />;
 }
 
