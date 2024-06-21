@@ -10,8 +10,7 @@ const styles = {
   Container: {
     borderRadius: '15px',
     padding: '40px',
-    width: '100%',
-    maxWidth: '1200px',
+    height: '100%',
     margin: '0 auto',
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
   },
