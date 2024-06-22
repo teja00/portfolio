@@ -12,7 +12,7 @@ const styles = {
     width: 75,
     margin: 10,
     marginBottom: 0,
-    backgroundColor: '#2d3748',
+    backgroundColor: '#112240',
     borderRadius: 8,
     padding: 20,
   },

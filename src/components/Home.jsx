@@ -47,14 +47,6 @@ const styles = {
     margin: '0 auto',
     marginBottom: '20px',
   },
-  contactButton: {
-    backgroundColor: '#007bff',
-    color: '#fff',
-    padding: '10px 20px',
-    borderRadius: '5px',
-    textDecoration: 'none',
-    marginBottom: '20px',
-  },
 };
 
 function Home() {
