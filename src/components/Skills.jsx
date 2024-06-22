@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
 import { Container, Row, Col } from 'react-bootstrap';
+import { ThemeContext } from 'styled-components';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
@@ -12,7 +13,6 @@ const styles = {
     width: 75,
     margin: 10,
     marginBottom: 0,
-    backgroundColor: '#112240',
     borderRadius: 8,
     padding: 20,
   },
@@ -33,6 +33,7 @@ const styles = {
 function Skills(props) {
   const { header } = props;
   const [data, setData] = useState(null);
+  const theme = useContext(ThemeContext);
 
   useEffect(() => {
     fetch(endpoints.skills, {
@@ -68,11 +69,20 @@ function Skills(props) {
                         style={styles.skillContainer}
                       >
                         <img
-                          style={styles.iconStyle}
+                          style={{
+                            ...styles.iconStyle,
+                            backgroundColor: theme.containerBackground,
+                          }}
                           src={item.icon}
                           alt={item.title}
                         />
-                        <p style={styles.skillTitle}>{item.title}</p>
+                        <p style={{
+                          ...styles.skillTitle,
+                          color: theme.socialIconBgColor,
+                        }}
+                        >
+                          {item.title}
+                        </p>
                       </Col>
                     ))}
                   </Row>
