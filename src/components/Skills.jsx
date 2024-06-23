@@ -28,6 +28,9 @@ const styles = {
   sectionContentContainer: {
     textAlign: 'center',
   },
+  rowStyle: {
+    justifyContent: 'center',
+  },
 };
 
 function Skills(props) {
@@ -58,7 +61,7 @@ function Skills(props) {
                 <div key={rows.title}>
                   <br />
                   <h3>{rows.title}</h3>
-                  <Row>
+                  <Row style={styles.rowStyle}>
                     {rows.items.map((item) => (
                       <Col
                         key={item.title}
