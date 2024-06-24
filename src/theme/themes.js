@@ -3,6 +3,7 @@ export const lightTheme = {
   color: '#121212',
   accentColor: '#3D84C6',
   containerBackground: '#ADD8E6',
+  containerBackgroundOpposite: '#112240',
   chronoTheme: {
     cardBgColor: 'white',
     cardForeColor: 'black',
@@ -27,6 +28,7 @@ export const darkTheme = {
   color: '#eee',
   accentColor: '#3D84C6',
   containerBackground: '#112240',
+  containerBackgroundOpposite: '#ADD8E6',
   chronoTheme: {
     cardBgColor: '#1B1B1B',
     cardForeColor: '#eee',

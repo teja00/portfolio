@@ -1,19 +1,16 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
+            "title": "Aug 2023 - May 2025",
+            "cardTitle": "Master of Science, Computer Science",
+            "cardSubtitle":"University of Illinois, Chicago",
+            "cardDetailedText": "GPA - 4.0"
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "May 2017 - May 2021",
+            "cardTitle": "B.Tech, Computer Science",
+            "cardSubtitle":"Mahindra Ecole Centrale, India, Hyderabad",
+            "cardDetailedText": "GPA - 8.75"
         }
     ]
 }

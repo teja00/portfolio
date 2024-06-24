@@ -1,6 +1,15 @@
 {
     "experiences": [
         {
+            "title": "Software Engineer Intern",
+            "subtitle": "Waltz Health",
+            "workType": "Internship",
+            "workDescription": [
+                ""
+            ],
+            "dateText": "02/2023 – 08/2023"
+        },
+        {
             "title": "Software Engineer 2",
             "subtitle": "Dell Technologies",
             "workType": "Full-Time",

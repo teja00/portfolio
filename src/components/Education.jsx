@@ -54,22 +54,15 @@ function Education(props) {
                 cardHeight={250}
                 mode={mode}
                 theme={{
-                  primary: theme.accentColor,
-                  secondary: theme.accentColor,
-                  cardBgColor: theme.chronoTheme.cardBgColor,
+                  primary: '#71706c',
+                  secondary: theme.containerBackground,
+                  cardBgColor: theme.containerBackground,
                   cardForeColor: theme.chronoTheme.cardForeColor,
-                  titleColor: theme.chronoTheme.titleColor,
+                  titleColor: theme.chronoTheme.cardForeColor,
+                  titleColorActive: '#FA5F55',
                 }}
               >
-                <div className="chrono-icons">
-                  {data.education.map((education) => (education.icon ? (
-                    <img
-                      key={education.icon.src}
-                      src={education.icon.src}
-                      alt={education.icon.alt}
-                    />
-                  ) : null))}
-                </div>
+                <div className="chrono-icons" />
               </Chrono>
             </Container>
           </div>
