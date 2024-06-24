@@ -1,33 +1,32 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "Software Engineer 2",
+            "subtitle": "Dell Technologies",
+            "workType": "Full-Time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "I was responsible for managing the AI chatbot for the testing team, enabling them to comprehend the application without needing to consult the core application team for minor details. The chatbot facilitated a deeper understanding of the supply chain processes managed by our application, streamlining communication and enhancing efficiency.",
+                "I developed a dashboard that predicts the pricing of specific products using a time series prediction model based on the data handled by our products. Additionally, I implemented both the frontend and backend for the model using Flask, ensuring seamless integration and user-friendly interaction."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "02/2023 – 08/2023"
         },
         {
             "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "subtitle": "Dell Technologies",
+            "workType": "Full-Time",
+            "workDescription": [
+                "As a Back-End Developer at Dell, I am responsible for managing high-volume and high-intensity data utilizing the Akka framework. In addition, I am involved in developing front-end solutions for internal applications. This role offers me a valuable opportunity to utilize my skills and expertise in software development while contributing to the growth and success of the organization."
+            ],
+            "dateText": "08/2021 – 03/2023"
+        },
+        {
+            "title": "Software Engineer Intern",
+            "subtitle": "Dell Technologies",
             "workType": "Internship",
             "workDescription": [
-                "Worked on abc."
+                "As a Software Engineer Intern, my primary responsibility was to understand the application thoroughly. I was assigned to work on the frontend of one of the applications, for which the backend had already been developed."
             ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "02/2021 – 05/2021"
         }
     ]
 }
