@@ -60,7 +60,7 @@ const NavBar = () => {
       expanded={expanded}
     >
       <Container>
-        <Navbar.Brand href="/">Teja Nagubandi</Navbar.Brand>
+        <Navbar.Brand href="/portfolio/home">Teja Nagubandi</Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => setExpanded(!expanded)}
