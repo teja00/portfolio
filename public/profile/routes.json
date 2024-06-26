@@ -1,9 +1,9 @@
 {
     "sections": [
         {
-            "component": "About",
+            "component": "Home",
             "path": "/portfolio/home",
-            "headerTitle": "About"
+            "headerTitle": "Home"
         },
         {
             "component": "Skills",
