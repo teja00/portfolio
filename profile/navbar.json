@@ -2,7 +2,7 @@
     "sections": [
         {
             "title": "Home",
-            "href": "/portfolio"
+            "href": "/portfolio/home"
         },
         {
             "title": "Skills",
