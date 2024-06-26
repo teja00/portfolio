@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/teja-nagubandi/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/teja00"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:tejanagubandi00@gmail.com"
+        }
+    ]
+}
