@@ -2,23 +2,23 @@
     "sections": [
         {
             "title": "About",
-            "href": "/"
+            "href": "/portfolio"
         },
         {
             "title": "Skills",
-            "href": "/skills"
+            "href": "/portfolio/skills"
         },
         {
             "title": "Education",
-            "href": "/education"
+            "href": "/portfolio/education"
         },
         {
             "title": "Experience",
-            "href": "/experience"
+            "href": "/portfolio/experience"
         },
         {
             "title": "Projects",
-            "href": "/projects"
+            "href": "/portfolio/projects"
         },
         {
             "title": "Resume",
