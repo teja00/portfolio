@@ -2,7 +2,7 @@
     "sections": [
         {
             "component": "About",
-            "path": "/portfolio/about",
+            "path": "/portfolio/home",
             "headerTitle": "About"
         },
         {
