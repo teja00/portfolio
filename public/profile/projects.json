@@ -21,7 +21,7 @@
             ]
         },
         {
-            "title": "CTIDiffusion - Text to Image generation",
+            "title": "CTIDiffusion - Text to Image Generation",
             "bodyText": "This implementation is based on the paper titled Conditional Text Image Generation with Diffusion Models, which can be found at arXiv:2306.10804v1.",
             "links": [
                 {
