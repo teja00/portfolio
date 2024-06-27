@@ -1,7 +1,7 @@
 {
     "name": "Teja Nagubandi",
-    "roles": ["a Developer", "an AI Enthusiast"],
-    "bio": "I am currently pursuing a Master's degree in Computer Science at the University of Illinois at Chicago. My research focuses on scalable distributed training with augmented losses. Please feel free to contact me via the methods listed below. I look forward to connecting with you.",
+    "roles": ["A Deep Network Researcher", "an AI Enthusiast", "A Backend Developer"],
+    "bio": "I am currently pursuing Master's degree in Computer Science at the University of Illinois at Chicago, with a research focus on scalable distributed training and augmented losses. Please feel free to contact me via the methods listed below; I look forward to connecting with you.",
     "profilePicture": "images/about/profile.png",
     "contactEmail": "tejanagubandi00@gmail.com"
 }
