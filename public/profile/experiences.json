@@ -14,8 +14,10 @@
             "subtitle": "Dell Technologies",
             "workType": "Full-Time",
             "workDescription": [
-                "I was responsible for managing the AI chatbot for the testing team, enabling them to comprehend the application without needing to consult the core application team for minor details. The chatbot facilitated a deeper understanding of the supply chain processes managed by our application, streamlining communication and enhancing efficiency.",
-                "I developed a dashboard that predicts the pricing of specific products using a time series prediction model based on the data handled by our products. Additionally, I implemented both the frontend and backend for the model using Flask, ensuring seamless integration and user-friendly interaction."
+                "Managed the AI chatbot for the testing team, allowing them to comprehend the application without consulting the core application team for minor details.",
+                "Enabled a deeper understanding of supply chain processes managed by the application, streamlining communication and enhancing efficiency.",
+                "Developed a dashboard predicting the pricing of specific products using a time series prediction model based on data handled by the products.",
+                "Implemented both the frontend and backend for the model using Flask, ensuring seamless integration and user-friendly interaction."
             ],
             "dateText": "02/2023 – 08/2023"
         },
@@ -24,7 +26,9 @@
             "subtitle": "Dell Technologies",
             "workType": "Full-Time",
             "workDescription": [
-                "As a Back-End Developer at Dell, I am responsible for managing high-volume and high-intensity data utilizing the Akka framework. In addition, I am involved in developing front-end solutions for internal applications. This role offers me a valuable opportunity to utilize my skills and expertise in software development while contributing to the growth and success of the organization."
+                "Managed high-volume and high-intensity data using the Akka framework.",
+                "Developed front-end solutions for internal applications.",
+                "Utilized skills and expertise in software development to contribute to the growth and success of the organization."
             ],
             "dateText": "08/2021 – 03/2023"
         },
@@ -33,7 +37,8 @@
             "subtitle": "Dell Technologies",
             "workType": "Internship",
             "workDescription": [
-                "As a Software Engineer Intern, my primary responsibility was to understand the application thoroughly. I was assigned to work on the frontend of one of the applications, for which the backend had already been developed."
+                "Thoroughly understood the application.",
+                "Worked on the frontend of an application with an already developed backend."
             ],
             "dateText": "02/2021 – 05/2021"
         }

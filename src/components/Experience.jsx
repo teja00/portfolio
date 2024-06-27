@@ -34,6 +34,9 @@ const styles = {
   itemStyle: {
     marginBottom: 10,
   },
+  liStyle: {
+    textAlign: 'justify',
+  },
 };
 
 function Experience(props) {
@@ -89,7 +92,7 @@ function Experience(props) {
                         <ul style={styles.ulStyle}>
                           {item.workDescription.map((point) => (
                             <div key={point}>
-                              <li>
+                              <li style={styles.liStyle}>
                                 <ReactMarkdown
                                   children={point}
                                   components={{
