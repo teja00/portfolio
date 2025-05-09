@@ -56,7 +56,6 @@ const ProjectCard = (props) => {
             {parseBodyText(project.bodyText)}
           </Card.Text>
         </Card.Body>
-
         <Card.Body>
           {project?.links?.map((link) => (
             <Button
