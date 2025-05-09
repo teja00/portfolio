@@ -21,7 +21,7 @@
             ]
         },
         {
-            "title": "CTIDiffusion - Text to Image generation",
+            "title": "CTIG-Diffusion - Text to Image Generation",
             "bodyText": "This implementation is based on the paper titled Conditional Text Image Generation with Diffusion Models, which can be found at arXiv:2306.10804v1.",
             "links": [
                 {
@@ -32,6 +32,20 @@
             "tags" : [
                 "Python",
                 "Pytorch"
+            ]
+        },
+        {
+            "title": "Building Blocks",
+            "bodyText": "Created a package which is a building block for creating a custom python implementation of Algebra, Machine Learning",
+            "links": [
+                {
+                    "text": "Documentation",
+                    "href": "https://teja00.github.io/BuildingBlocks/"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "nbdev"
             ]
         }
     ]

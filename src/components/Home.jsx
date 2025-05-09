@@ -46,6 +46,7 @@ const styles = {
     maxWidth: '600px',
     margin: '0 auto',
     marginBottom: '20px',
+    textAlign: 'justify',
   },
 };
 

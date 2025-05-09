@@ -1,28 +1,28 @@
 {
     "sections": [
         {
-            "title": "About",
-            "href": "/"
+            "title": "Home",
+            "href": "/portfolio/home"
         },
         {
             "title": "Skills",
-            "href": "/skills"
+            "href": "/portfolio/skills"
         },
         {
             "title": "Education",
-            "href": "/education"
+            "href": "/portfolio/education"
         },
         {
             "title": "Experience",
-            "href": "/experience"
+            "href": "/portfolio/experience"
         },
         {
             "title": "Projects",
-            "href": "/projects"
+            "href": "/portfolio/projects"
         },
         {
             "title": "Resume",
-            "href": "https://drive.google.com/file/d/1sHyCbaX6leu1beiJJ2wlsK-KqLk1qjuF/view?usp=drive_link",
+            "href": "https://drive.google.com/file/d/1sHyCbaX6leu1beiJJ2wlsK-KqLk1qjuF/view?usp=sharing",
             "type": "link"
         }
     ]
